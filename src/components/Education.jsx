@@ -1,4 +1,53 @@
+import { useState, useEffect } from "react";
+import highFiveMe from "../assets/awards/HighFiveAward_me.jpg";
+import highFiveTrophy from "../assets/awards/HighFiveAward_trophy.jpg";
+import rockstarMe from "../assets/awards/RockstarRooke_me.jpg";
+import rockstarCert from "../assets/awards/RockstarRookie_cert.jpg";
+import uRobotPodium from "../assets/awards/uRobot_2nd_prize.jpg";
+import uRobotTrophy from "../assets/awards/uRobot_trophy.jpg";
+
+const SHOTS = [
+  {
+    src: highFiveMe,
+    caption: "High Five Award — Nissan Integration Japan Team, BGSV Appreciation Night 2025",
+  },
+  {
+    src: highFiveTrophy,
+    caption: "High Five Award trophy — “WIN · LEAD”, BGSV Appreciation Night 2025",
+  },
+  {
+    src: rockstarMe,
+    caption: "Rockstar Rookie — BGSW Appreciation Night 2024, “Light of Pride”",
+  },
+  {
+    src: rockstarCert,
+    caption: "Rockstar Rookie — Certificate of Appreciation, Bosch Global Software Technologies",
+  },
+  {
+    src: uRobotPodium,
+    caption: "uRobot Hackathon — 1st Runner-up, BGSW Vietnam Hackathon 2023",
+  },
+  {
+    src: uRobotTrophy,
+    caption: "uRobot Hackathon trophy — 1st Runner-up, #uRobot 2023",
+  },
+];
+
 export default function Education() {
+  const [active, setActive] = useState(null);
+
+  useEffect(() => {
+    if (active === null) return;
+    const onKey = (e) => {
+      if (e.key === "Escape") setActive(null);
+      if (e.key === "ArrowRight") setActive((i) => (i + 1) % SHOTS.length);
+      if (e.key === "ArrowLeft")
+        setActive((i) => (i - 1 + SHOTS.length) % SHOTS.length);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [active]);
+
   return (
     <section className="section" id="education">
       <div className="container">
@@ -44,7 +93,6 @@ export default function Education() {
               <li>Top Performer Award — First Half of 2026</li>
               <li>High Five Award — outstanding team contribution (2025)</li>
               <li>Rockstar Rookie Award — exceptional new-engineer performance (2024)</li>
-              <li>Code Rally 3 &amp; 4 Participant (2023 &amp; 2024)</li>
               <li>uRobot Hackathon — 2nd Prize (2023)</li>
               <li>SMC Company Scholarship (2022)</li>
               <li>Academic Scholarship (2021 &amp; 2022)</li>
@@ -64,7 +112,46 @@ export default function Education() {
             </ul>
           </div>
         </div>
+
+        <div className="award-gallery">
+          <div className="award-gallery__label">On stage</div>
+          <div className="award-gallery__grid">
+            {SHOTS.map((shot, i) => (
+              <button
+                type="button"
+                className="award-shot"
+                key={shot.src}
+                onClick={() => setActive(i)}
+                aria-label={`View photo: ${shot.caption}`}
+              >
+                <img src={shot.src} alt={shot.caption} loading="lazy" />
+                <span className="award-shot__caption">{shot.caption}</span>
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
+
+      {active !== null && (
+        <div
+          className="lightbox"
+          onClick={() => setActive(null)}
+          role="dialog"
+          aria-modal="true"
+          aria-label={SHOTS[active].caption}
+        >
+          <button
+            type="button"
+            className="lightbox__close"
+            onClick={() => setActive(null)}
+            aria-label="Close"
+          >
+            ×
+          </button>
+          <img src={SHOTS[active].src} alt={SHOTS[active].caption} />
+          <div className="lightbox__caption">{SHOTS[active].caption}</div>
+        </div>
+      )}
     </section>
   );
 }

@@ -7,7 +7,7 @@ const GROUPS = [
       "HAL",
       "System Services",
       "SELinux / secpol",
-      "AIDL migration (16→17)",
+      "AIDL migration",
       "Soong / Kati / Bazel",
     ],
   },
@@ -16,7 +16,7 @@ const GROUPS = [
     tags: [
       "Goldfish Emulator",
       "Cuttlefish Emulator",
-      "AOSP 12–14",
+      "Multiple AOSP releases",
       "QEMU virtual targets",
     ],
   },

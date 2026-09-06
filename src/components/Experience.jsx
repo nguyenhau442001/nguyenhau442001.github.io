@@ -34,10 +34,10 @@ export default function Experience() {
               <ul>
                 <li>
                   Supported leadership as technical lead on a customer-acquisition
-                  proof of concept demonstrating Android 16→17 migration readiness
-                  and QNX Hypervisor integration on Qualcomm Snapdragon Cockpit
-                  platforms, to prove platform capability to prospective OEM
-                  clients.
+                  proof of concept demonstrating readiness to migrate to a newer
+                  Android release and QNX Hypervisor integration on Qualcomm
+                  Snapdragon Cockpit platforms, to prove platform capability to
+                  prospective OEM clients.
                 </li>
                 <li>
                   Debugged Android VM boot failures under QNX Hypervisor (LCM/HAM
@@ -46,8 +46,8 @@ export default function Experience() {
                   targets.
                 </li>
                 <li>
-                  Resolved Android 16→17 AIDL migration issues (AudioChannelLayout
-                  acnMask mismatches, java_sdk_library scope errors, D8/desugar
+                  Resolved AIDL migration issues (AudioChannelLayout mask
+                  mismatches, java_sdk_library scope errors, D8/desugar
                   synthetic-lambda version skew) causing SystemUI crashes.
                 </li>
                 <li>
@@ -109,8 +109,8 @@ export default function Experience() {
                   Android compatibility across releases.
                 </li>
                 <li>
-                  Contributed to Android platform integration across Android 12 →
-                  14 → 16 (kernel 5.4) on Qualcomm SA8155, bringing up BSP
+                  Contributed to Android platform integration across multiple
+                  major Android releases on Qualcomm SA8155, bringing up BSP
                   components (kernel, device tree, Wi-Fi, Bluetooth, Audio) and
                   defining partition layout for new targets.
                 </li>
@@ -121,8 +121,9 @@ export default function Experience() {
                 </li>
                 <li>
                   Developed and validated features on the Android Goldfish
-                  (QEMU-based) and Cuttlefish (cloud-based) emulators across AOSP
-                  12–14, enabling feature development ahead of hardware.
+                  (QEMU-based) and Cuttlefish (cloud-based) emulators across
+                  multiple AOSP releases, enabling feature development ahead of
+                  hardware.
                 </li>
                 <li>
                   Prepared and delivered client demos for OEMs including Renault,

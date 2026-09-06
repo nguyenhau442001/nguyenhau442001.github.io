@@ -13,7 +13,7 @@ export default function About() {
                 I'm a software engineer with nearly four years of experience in
                 Android Automotive (AAOS) head unit development, specializing in
                 system-level debugging — HAL, system services, SELinux/secpol —
-                OS version migration (Android 16→17, AIDL), and multi-OS
+                OS version migration to a newer Android release (AIDL), and multi-OS
                 integration across Android, QNX, and Linux on Qualcomm Snapdragon
                 Cockpit platforms.
               </p>

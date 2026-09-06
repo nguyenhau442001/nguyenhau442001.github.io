@@ -7,7 +7,7 @@ Ho Chi Minh City, Vietnam | 083-627-1715 | haunguyenngoc442001@gmail.com | linke
 
 ## About Me
 
-Software Engineer with nearly 4 years of experience in Android Automotive (AAOS) head unit development, specializing in system-level debugging (HAL, system services, SELinux/secpol), OS version migration (Android 16→17, AIDL), and multi-OS integration (Android / QNX / Linux) on Qualcomm Snapdragon Cockpit platforms.
+Software Engineer with nearly 4 years of experience in Android Automotive (AAOS) head unit development, specializing in system-level debugging (HAL, system services, SELinux/secpol), OS version migration to a newer Android release (AIDL), and multi-OS integration (Android / QNX / Linux) on Qualcomm Snapdragon Cockpit platforms.
 
 Proven ability to diagnose and resolve complex framework and native-layer issues on Qualcomm Snapdragon SoCs (SA6150 / SA8255 / SA8295) in large-scale production environments, and to stand up new hardware targets from board bring-up through stable release.
 
@@ -17,8 +17,8 @@ Proven ability to diagnose and resolve complex framework and native-layer issues
 
 | Category | Details |
 |---|---|
-| **Android Platform** | AOSP, AAOS, HAL, System Services, SELinux/secpol, AIDL migration (Android 16→17), Soong / Kati / Bazel build system |
-| **Emulation & Virtual Dev** | Android Goldfish & Cuttlefish Emulators (AOSP 12–14), QEMU-based virtual targets |
+| **Android Platform** | AOSP, AAOS, HAL, System Services, SELinux/secpol, AIDL migration, Soong / Kati / Bazel build system |
+| **Emulation & Virtual Dev** | Android Goldfish & Cuttlefish Emulators (multiple AOSP releases), QEMU-based virtual targets |
 | **Embedded / RTOS** | QNX Hypervisor, Multi-OS integration (Android/QNX/Linux), LCM/HAM, SMMU/IOMMU |
 | **Programming Languages** | C++, Python (primary) \| Java, JavaScript (secondary), Bash scripting |
 | **Embedded Stack** | STM32, MPU6050/9250, H-Bridge, LiDAR, UWB, UART, SPI, I2C, Servo & BLDC motor |
@@ -37,9 +37,9 @@ Proven ability to diagnose and resolve complex framework and native-layer issues
 **Qualcomm Cockpit Platform Acquisition Project (SA6150/SA8255/SA8295) | System Integration Engineer**
 *(Beginning of August 2026 – End of August 2026)*
 
-- Supported leadership as technical lead on a customer-acquisition proof-of-concept (POC) demonstrating Android 16→17 migration readiness and QNX Hypervisor integration on Qualcomm Snapdragon Cockpit platforms, to prove platform capability to prospective OEM clients.
+- Supported leadership as technical lead on a customer-acquisition proof-of-concept (POC) demonstrating readiness to migrate to a newer Android release and QNX Hypervisor integration on Qualcomm Snapdragon Cockpit platforms, to prove platform capability to prospective OEM clients.
 - Debugged Android VM boot failures under QNX Hypervisor (LCM/HAM state machine stuck at INIT, FDT/mmap64 EPERM, secpol/SELinux ability grants), restoring stable boot on SA7255/SA8295 reference targets.
-- Resolved Android 16→17 AIDL migration issues (AudioChannelLayout acnMask mismatches, java_sdk_library scope errors, D8/desugar synthetic-lambda version skew) causing SystemUI crashes.
+- Resolved AIDL migration issues (AudioChannelLayout mask mismatches, java_sdk_library scope errors, D8/desugar synthetic-lambda version skew) causing SystemUI crashes.
 - Applied slog2info differential (OK vs. NOK) root-cause methodology across SMMU/IOMMU, PCIe PIPE clock, and hypervisor-level services to isolate failures not visible through standard Android logging.
 - Presented technical readiness findings to internal stakeholders in support of the platform acquisition proposal.
 
@@ -65,14 +65,14 @@ Proven ability to diagnose and resolve complex framework and native-layer issues
 - Stabilized the system after major integration activities across numerous production releases.
 
 *Hardware Bring-Up & Integration*
-- Contributed to Android platform integration across Android 12 → Android 14 → Android 16 (Linux kernel 5.4) on Qualcomm SA8155, ensuring system stability throughout.
+- Contributed to Android platform integration across multiple major Android releases on Qualcomm SA8155, ensuring system stability throughout.
 - Brought up BSP components (kernel, device tree, Wi-Fi, Bluetooth, Audio) on new embedded targets.
 - Defined partition layout and configured build targets for new devices.
 
 *CI/CD & Automation*
 - Reduced CI/CD pipeline downtime by 40%+ by identifying and resolving root causes of Jenkins failures, improving build stability.
 - Developed Python/Bash automation tools to accelerate debugging and integration workflows.
-- Developed and validated features on the Android Goldfish (QEMU-based) and Cuttlefish (cloud-based) emulators across AOSP 12 through AOSP 14, enabling feature development ahead of hardware availability and minimizing schedule downtime.
+- Developed and validated features on the Android Goldfish (QEMU-based) and Cuttlefish (cloud-based) emulators across multiple AOSP releases, enabling feature development ahead of hardware availability and minimizing schedule downtime.
 
 *Acquisition-Related Tasks*
 - Prepared and delivered client demos for OEMs, including Renault, presenting complex engineering topics clearly to non-technical stakeholders.

@@ -44,8 +44,8 @@ export default function Hero() {
               <div className="stat__label">Snapdragon Cockpit SoCs</div>
             </div>
             <div className="stat">
-              <div className="stat__value">16→17</div>
-              <div className="stat__label">Android OS Migration</div>
+              <div className="stat__value">3</div>
+              <div className="stat__label">OS Stacks Integrated</div>
             </div>
           </div>
         </div>

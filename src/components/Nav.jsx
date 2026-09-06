@@ -11,7 +11,7 @@ export default function Nav() {
     <header className="nav">
       <div className="container nav__inner">
         <a href="#top" className="nav__mark">
-          NN<span>HAU</span> · v1.0
+          NN<span>HAU</span>
         </a>
         <nav className="nav__links">
           {links.map(([label, href]) => (

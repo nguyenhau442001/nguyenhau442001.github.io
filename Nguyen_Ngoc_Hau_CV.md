@@ -9,7 +9,7 @@ Ho Chi Minh City, Vietnam | 083-627-1715 | haunguyenngoc442001@gmail.com | linke
 
 Software Engineer with nearly 4 years of experience in Android Automotive (AAOS) head unit development, specializing in system-level debugging (HAL, system services, SELinux/secpol), OS version migration to a newer Android release (AIDL), and multi-OS integration (Android / QNX / Linux) on Qualcomm Snapdragon Cockpit platforms.
 
-Proven ability to diagnose and resolve complex framework and native-layer issues on Qualcomm Snapdragon SoCs (SA6150 / SA8255 / SA8295) in large-scale production environments, and to stand up new hardware targets from board bring-up through stable release.
+Proven ability to diagnose and resolve complex framework and native-layer issues on Qualcomm Snapdragon Cockpit SoCs in large-scale production environments, and to stand up new hardware targets from board bring-up through stable release.
 
 ---
 
@@ -34,11 +34,11 @@ Proven ability to diagnose and resolve complex framework and native-layer issues
 
 ### BOSCH GLOBAL SOFTWARE TECHNOLOGIES — Dec 2022 – Present
 
-**Qualcomm Cockpit Platform Acquisition Project (SA6150/SA8255/SA8295) | System Integration Engineer**
+**Qualcomm Cockpit Platform Acquisition Project | System Integration Engineer**
 *(Beginning of August 2026 – End of August 2026)*
 
 - Supported leadership as technical lead on a customer-acquisition proof-of-concept (POC) demonstrating readiness to migrate to a newer Android release and QNX Hypervisor integration on Qualcomm Snapdragon Cockpit platforms, to prove platform capability to prospective OEM clients.
-- Debugged Android VM boot failures under QNX Hypervisor (LCM/HAM state machine stuck at INIT, FDT/mmap64 EPERM, secpol/SELinux ability grants), restoring stable boot on SA7255/SA8295 reference targets.
+- Debugged Android VM boot failures under QNX Hypervisor (LCM/HAM state machine stuck at INIT, FDT/mmap64 EPERM, secpol/SELinux ability grants), restoring stable boot on reference targets.
 - Resolved AIDL migration issues (AudioChannelLayout mask mismatches, java_sdk_library scope errors, D8/desugar synthetic-lambda version skew) causing SystemUI crashes.
 - Applied slog2info differential (OK vs. NOK) root-cause methodology across SMMU/IOMMU, PCIe PIPE clock, and hypervisor-level services to isolate failures not visible through standard Android logging.
 - Presented technical readiness findings to internal stakeholders in support of the platform acquisition proposal.
@@ -65,7 +65,7 @@ Proven ability to diagnose and resolve complex framework and native-layer issues
 - Stabilized the system after major integration activities across numerous production releases.
 
 *Hardware Bring-Up & Integration*
-- Contributed to Android platform integration across multiple major Android releases on Qualcomm SA8155, ensuring system stability throughout.
+- Contributed to Android platform integration across multiple major Android releases on a Qualcomm Snapdragon Cockpit SoC, ensuring system stability throughout.
 - Brought up BSP components (kernel, device tree, Wi-Fi, Bluetooth, Audio) on new embedded targets.
 - Defined partition layout and configured build targets for new devices.
 

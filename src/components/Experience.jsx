@@ -27,7 +27,7 @@ export default function Experience() {
               <div className="tl-role__head">
                 <span className="tl-role__title">
                   System Integration Engineer — Qualcomm Cockpit Platform
-                  Acquisition POC (SA6150 / SA8255 / SA8295)
+                  Acquisition POC
                 </span>
                 <span className="tl-role__date">Aug 2026</span>
               </div>
@@ -42,8 +42,7 @@ export default function Experience() {
                 <li>
                   Debugged Android VM boot failures under QNX Hypervisor (LCM/HAM
                   state machine stuck at INIT, FDT/mmap64 EPERM, secpol/SELinux
-                  ability grants), restoring stable boot on SA7255/SA8295 reference
-                  targets.
+                  ability grants), restoring stable boot on reference targets.
                 </li>
                 <li>
                   Resolved AIDL migration issues (AudioChannelLayout mask
@@ -110,9 +109,9 @@ export default function Experience() {
                 </li>
                 <li>
                   Contributed to Android platform integration across multiple
-                  major Android releases on Qualcomm SA8155, bringing up BSP
-                  components (kernel, device tree, Wi-Fi, Bluetooth, Audio) and
-                  defining partition layout for new targets.
+                  major Android releases on a Qualcomm Snapdragon Cockpit SoC,
+                  bringing up BSP components (kernel, device tree, Wi-Fi,
+                  Bluetooth, Audio) and defining partition layout for new targets.
                 </li>
                 <li>
                   Reduced CI/CD pipeline downtime by 40%+ by root-causing Jenkins

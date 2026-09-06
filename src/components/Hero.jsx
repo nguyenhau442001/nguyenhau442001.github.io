@@ -40,8 +40,8 @@ export default function Hero() {
               <div className="stat__label">Android Automotive</div>
             </div>
             <div className="stat">
-              <div className="stat__value">3</div>
-              <div className="stat__label">Snapdragon Cockpit SoCs</div>
+              <div className="stat__value">Snapdragon</div>
+              <div className="stat__label">Cockpit Platforms</div>
             </div>
             <div className="stat">
               <div className="stat__value">3</div>
@@ -105,7 +105,7 @@ export default function Hero() {
             <span className="radar__blip radar__blip--1">AAOS / HAL</span>
             <span className="radar__blip radar__blip--2">QNX Hypervisor</span>
             <span className="radar__blip radar__blip--3">SELinux / secpol</span>
-            <span className="radar__blip radar__blip--4">Snapdragon SA82xx</span>
+            <span className="radar__blip radar__blip--4">Snapdragon Cockpit</span>
             <span className="radar__blip radar__blip--5">C++ / Python</span>
           </div>
         </div>

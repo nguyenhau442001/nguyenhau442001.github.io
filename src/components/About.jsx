@@ -19,9 +19,9 @@ export default function About() {
               </p>
               <p>
                 I diagnose and resolve complex framework and native-layer issues
-                on Qualcomm Snapdragon SoCs (SA6150 / SA8255 / SA8295) in
-                large-scale production environments, and stand up new hardware
-                targets from board bring-up through stable release.
+                on Qualcomm Snapdragon Cockpit SoCs in large-scale production
+                environments, and stand up new hardware targets from board
+                bring-up through stable release.
               </p>
               <p>
                 Outside shipped platform work, I'm self-studying automotive

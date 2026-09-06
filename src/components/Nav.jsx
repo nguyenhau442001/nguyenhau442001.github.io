@@ -1,9 +1,9 @@
 export default function Nav() {
   const links = [
     ["About", "#about"],
-    ["Spec Sheet", "#skills"],
-    ["Mission Log", "#experience"],
-    ["Flagship Build", "#project"],
+    ["Skills", "#skills"],
+    ["Experience", "#experience"],
+    ["Project", "#project"],
     ["Contact", "#contact"],
   ];
 

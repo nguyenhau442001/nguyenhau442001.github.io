@@ -13,7 +13,7 @@ export default function Project() {
     <section className="section" id="project" style={{ background: "var(--ink-deep)" }}>
       <div className="container">
         <div className="section-head">
-          <div className="eyebrow">flagship_build</div>
+          <div className="eyebrow">project</div>
           <h2 className="section-title">Self-directed project</h2>
         </div>
 

@@ -80,7 +80,7 @@ export default function Skills() {
     <section className="section" id="skills" style={{ background: "var(--ink-deep)" }}>
       <div className="container">
         <div className="section-head">
-          <div className="eyebrow">spec_sheet</div>
+          <div className="eyebrow">skills</div>
           <h2 className="section-title">Technical skills</h2>
           <p className="section-sub">
             The stack I reach for when a problem spans the Android framework,

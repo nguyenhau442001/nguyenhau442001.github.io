@@ -3,7 +3,7 @@ export default function Experience() {
     <section className="section" id="experience">
       <div className="container">
         <div className="section-head">
-          <div className="eyebrow">mission_log</div>
+          <div className="eyebrow">experience</div>
           <h2 className="section-title">Experience</h2>
           <p className="section-sub">
             Nearly four years debugging the gap between the Android framework
